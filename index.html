@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Page</title>
+</head>
+<body style="background-color: rgb(179, 196, 174);">
+    <nav>
+        <div class="logo"><img src="locked.png" alt=""></div>
+        <ul>
+            <li>Back</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Welcome to Login</h1>
+        <p style="color: rgb(237, 143, 245); font-weight: bold; font-style: italic;"></p>
+
+        <h2>User Name And Password Required</h2>
+        <form id="loginForm">
+            <!-- Text input for username -->
+            <label class="labels" for="username">Username:</label>
+            <input class="inputs" type="text" id="username" name="username" required>
+            <br><br>
+        
+            <!-- Password input -->
+            <label class="labels" for="password">Password:</label>
+            <input class="inputs" type="password" id="password" name="password" required>
+            <br><br>
+            
+            <!-- Submit button -->
+            <input type="submit" value="Login">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
